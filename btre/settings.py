@@ -143,12 +143,12 @@ MESSAGE_TAGS = {
     messages.ERROR: 'danger'
 }
 
-# Email Config
-EMAIL_HOST = 'wendy.gmail.com'
-EMAIL_POST = 587
-EMAIL_HOST_USER = 'traversy.brad@gmail.com'
-EMAIL_HOST_PASSWORD = ''
-EMAIL_USE_TLS = True
+# # Email Config
+# EMAIL_HOST = 'wendy.gmail.com'
+# EMAIL_POST = 587
+# EMAIL_HOST_USER = 'traversy.brad@gmail.com'
+# EMAIL_HOST_PASSWORD = ''
+# EMAIL_USE_TLS = True
 
 try:
     from .local_settings import *
